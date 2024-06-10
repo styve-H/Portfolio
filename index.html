@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence immobilière</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/gallerie.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+</head>
+
+<body>
+    <!-- Debut loader -->
+  <div class="loader">
+    <div class="spinner">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <div class="line4"></div>
+      <div class="line5"></div>
+      <div class="line6"></div>
+    </div>
+  </div>
+  <!-- Fin loader -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Logo de l'entreprise">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="property.html">Proprietes</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="auth-links">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue chez notre agence immobilière</h1>
+            <p>Des propriétés de qualité et un service exceptionnel</p>
+            <a href="#" class="btn">Explorer les propriétés</a>
+        </div>
+    </section>
+    <div class="container">
+        <div class="wrapper">
+            <div class="wrapper-holder">
+                <div id="slider-img-1"></div>
+                <div id="slider-img-2"></div>
+                <div id="slider-img-3"></div>
+                <div id="slider-img-4"></div>
+            </div>
+        </div>
+        <div class="button-holder">
+            <a href="#slider-img-1" class="button"></a>
+            <a href="#slider-img-2" class="button"></a>
+            <a href="#slider-img-3" class="button"></a>
+            <a href="#slider-img-4" class="button"></a>
+        </div>
+    </div>
+    
+    <section>
+        <!-- Votre contenu HTML existant -->
+
+        <div class="gallery">
+            <section class="properties">
+                <h2>Nos dernières propriétés</h2>
+                <div class="property-list">
+                    <div class="property-item">
+                        <img src="assets/img/property1.jpg" class="gallery-image" alt="Propriété 1">
+                        <h3>Propriété 1</h3>
+                        <p>Description de la propriété 1</p>
+                        <a href="#" class="btn">Détails</a>
+                    </div>
+                    <div class="property-item">
+                        <img src="assets/img/property2.jpg" class="gallery-image" alt="Propriété 2">
+                        <h3>Propriété 2</h3>
+                        <p>Description de la propriété 2</p>
+                        <a href="#" class="btn">Détails</a>
+                    </div>
+                    <div class="property-item">
+                        <img src="assets/img/property3.jpg" class="gallery-image" alt="Propriété 3">
+                        <h3>Propriété 3</h3>
+                        <p>Description de la propriété 3</p>
+                        <a href="#" class="btn">Détails</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="popup">
+            <div class="slideshow">
+                <span class="close">&times;</span>
+                <div class="slideshow-content">
+                    <img src="assets/img/property1.jpg" alt="Image 1">
+                    <img src="assets/img/property2.jpg" alt="Image 2">
+                    <img src="assets/img/property3.jpg" alt="Image 3">
+                    <!-- Ajoutez d'autres images ici -->
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+        </div>
+    </section>
+    <section class="fun-facts">
+        <div class="counter">
+            <h2>34</h2>
+            <p>
+                Buildings <br>
+                Finished Now
+            </p>
+        </div>
+        <div class="counter">
+            <h2>12</h2>
+            <p>
+                Years <br>
+                Experience
+            </p>
+        </div>
+        <div class="counter">
+            <h2>24</h2>
+            <p>
+                Awwards <br>
+                Won 2023
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="assets/img/logo.png" alt="logo" class="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta nam ad dignissimos tempore ipsa magni tenetur voluptas consequatur
+                    iste voluptatem expedita numquam sit labore quis eos,
+                    non accusantium enim at.</p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div>
+                </h3>
+                <p>IIP Road</p>
+                <p>Whitefield, Bangalore</p>
+                <p>Bangante, PIN 560044, Cameroun</p>
+                <p class="email-id">hackeursstyve@gmail.com</p>
+                <h4>+237 - 681737376</h4>
+            </div>
+            <div class="col">
+                <h3>Link <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div>
+                </h3>
+                <form action="">
+                    <img src="assets/img/mail-outline.svg" alt="mail" class="far">
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><img src="assets/img/arrow-forward.svg" alt="envoie" class="fas"></button>
+                </form>
+                <div class="social-icons">
+                    <img src="assets/img/facebook-f.svg" alt="facebook" class="fab">
+                    <img src="assets/img/twitter.svg" alt="twitter" class="fab">
+                    <img src="assets/img/whatsapp.svg" alt="whatsapp" class="fab">
+                    <img src="assets/img/pinterest.svg" alt="pinterest" class="fab">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy; 2024 Agence immobilière. Tous droits réservés.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script1.js"></script>
+    <script src="assets/js/loader.js"></script>
+</body>
+
+</html>
